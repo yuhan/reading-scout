@@ -8,9 +8,7 @@ Reading Scout is a Codex plugin that finds papers, essays, and research posts, c
 
 Copy this into a local Codex chat:
 
-```text
-Set up Reading Scout from https://github.com/yuhan/reading-scout. Read skills/reading-scout/references/setup.md from that repository and follow the guide. Help me install the plugin, then ask about my research interests, X discovery, and a Notion or Space reading queue (or no queue).
-```
+> Set up Reading Scout from https://github.com/yuhan/reading-scout. Read skills/reading-scout/references/setup.md from that repository and follow the guide. Help me install the plugin, then ask about my research interests, X discovery, and a Notion or Space reading queue (or no queue).
 
 Codex asks about your research interests and where to keep your reading history, then checks the connections you choose. Reading Scout has three parts:
 
