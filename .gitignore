@@ -1,0 +1,5 @@
+.reading-scout/
+.env
+.env.*
+.DS_Store
+dist/

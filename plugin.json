@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "reading-scout",
+  "version": "0.1.0",
+  "description": "Find research worth reading, guided by your interests and feedback.",
+  "author": { "name": "Reading Scout contributors" },
+  "license": "MIT",
+  "keywords": ["research", "reading", "literature"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Reading Scout",
+        "shortDescription": "Find research worth reading",
+        "longDescription": "Discover papers, research essays, and substantive author posts that fit your interests. Verify original sources, explain contributions and limitations, suggest reading depth, and use your explicit feedback to guide future picks. Works with available search tools and optional connected reading queues.",
+        "developerName": "Reading Scout contributors",
+        "category": "Productivity",
+        "capabilities": ["Discover research", "Verify sources", "Record reading feedback"],
+        "defaultPrompt": [
+          "Set up Reading Scout for my research interests.",
+          "Run Reading Scout and find research worth my attention.",
+          "Record my feedback on the last Reading Scout picks."
+        ],
+        "brandColor": "#F3B64C",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      },
+      "onboardingSkill": "./skills/reading-scout/SKILL.md"
+    }
+  }
+}
